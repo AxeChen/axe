@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:text="同步get"
+        android:onClick="tongbuGet"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="异步get"
+        android:onClick="yibuGet"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="提取响应头"
+        android:onClick="getRequestHeader"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Post方式提交String"
+        android:onClick="postRequestString"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Post方式提交流"
+        android:onClick="postRequestIO"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Post方式提交文件"
+        android:onClick="postRequestFile"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Post方式提交表单"
+        android:onClick="postRequestForum"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Post方式提交分块请求"
+        android:onClick="postRequestSplitRequest"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="使用Gson来解析JSON响应"
+        android:onClick="useGsonParseResponse"
+        android:layout_height="wrap_content" />
+</LinearLayout>
