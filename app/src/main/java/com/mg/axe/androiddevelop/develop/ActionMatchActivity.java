@@ -26,5 +26,6 @@ public class ActionMatchActivity extends AppCompatActivity {
         startActivity(intent);
 
         Log.i("yes","yse");
+        Log.i("yes","yse");
     }
 }
