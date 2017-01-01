@@ -69,9 +69,7 @@ public class OkHttpTestActivity extends AppCompatActivity {
         }).start();
     }
 
-    /**
-     * test get
-     */
+
     private void testGet() {
 
         new Thread(new Runnable() {
