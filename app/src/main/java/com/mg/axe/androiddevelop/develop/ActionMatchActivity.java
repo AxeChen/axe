@@ -6,6 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 
 import com.mg.axe.androiddevelop.R;
@@ -23,5 +24,7 @@ public class ActionMatchActivity extends AppCompatActivity {
     public void matchA(View view){
         Intent intent = new Intent(Intent.ACTION_MEDIA_SHARED);
         startActivity(intent);
+
+        Log.i("yes","yse");
     }
 }
