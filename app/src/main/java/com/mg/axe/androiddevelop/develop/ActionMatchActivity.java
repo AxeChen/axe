@@ -25,7 +25,7 @@ public class ActionMatchActivity extends AppCompatActivity {
         Intent intent = new Intent(Intent.ACTION_MEDIA_SHARED);
         startActivity(intent);
 
-        Log.i("yes","yse");
+        Log.i("yes","ysasdfasde");
         Log.i("yes","yse");
 
     }
